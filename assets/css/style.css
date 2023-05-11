@@ -88,7 +88,7 @@
 .left-arrow {
     width: 62px;
     height: 108px;
-    background-color: #6a6767;
+    background-color: rgba(255, 255, 255, 0.1);
     position: absolute;
     left: 10%;
     top: 40%;
@@ -102,7 +102,7 @@
 .right-arrow {
     width: 62px;
     height: 108px;
-    background-color: #6a6767;
+    background-color: rgba(255, 255, 255, 0.1);
     position: absolute;
     right: 10%;
     top: 40%;
@@ -159,13 +159,18 @@ footer span :hover {
 }
 
 .slick-dots {
-    bottom: -70px;
+    bottom: 10px;
+    left: 0;
+}
+
+.slick-slider {
+    position: static !important;
 }
 
 .slick-dots li button:before {
     font-size: 16px;
-    opacity: 1;
-    color: #6a6767;
+    
+    color:  rgba(255, 255, 255, 0.3)
 }
 
 .slick-dots li.slick-active button:before {

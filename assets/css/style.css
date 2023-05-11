@@ -159,7 +159,18 @@ footer span :hover {
 }
 
 .slick-dots {
-    bottom: -50px;
+    bottom: -70px;
+}
+
+.slick-dots li button:before {
+    font-size: 16px;
+    opacity: 1;
+    color: #6a6767;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: blue;
 }
 
 @media (max-width:1200px) {
